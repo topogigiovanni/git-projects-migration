@@ -16,9 +16,7 @@
 		"path": "^0.12.7"
 	},
 	"scripts": {
-		"start": "node index.js",
-		"dev": "nodemon index.js",
-		"debug": "node --inspect index.js"
+		"start": "node index.js"
 	},
 	"devDependencies": {},
 	"repository": {
