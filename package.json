@@ -1,16 +1,17 @@
 {
-	"name": "test-module",
+	"name": "git-projects-migration",
 	"version": "1.0.0",
 	"description": "Helps to migrate many git projects",
 	"bin": {
-		"test-module-exec": "bin/test-module.js"
+		"gpm": "bin/gpm.js"
 	},
-	"main": "./lib/index.js",
+	"main": "index.js",
 	"preferGlobal": "true",
 	"dependencies": {
+		"command-line-args": "^5.0.2",
+		"execa": "^1.0.0",
 		"fs": "0.0.1-security",
-		"nodegit": "^0.23.0",
-		"nodemon": "^1.18.9",
+		"git-clone-repo": "^1.0.0",
 		"parse-git-config": "^3.0.0",
 		"path": "^0.12.7"
 	},
@@ -19,7 +20,6 @@
 		"dev": "nodemon index.js",
 		"debug": "node --inspect index.js"
 	},
-	"main": "index.js",
 	"devDependencies": {},
 	"repository": {
 		"type": "git",
