@@ -17,8 +17,8 @@ const mainOptions = commandLineArgs(mainDefinitions, {
 });
 const argv = mainOptions._unknown || [];
 
-console.log('mainOptions\n===========');
-console.log(mainOptions);
+// console.log('mainOptions\n===========');
+// console.log(mainOptions);
 
 /*
 	second - parse the merge command options
