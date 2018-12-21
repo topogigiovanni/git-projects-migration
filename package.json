@@ -5,7 +5,7 @@
 	"bin": {
 		"gpm": "bin/gpm.js"
 	},
-	"main": "index.js",
+	"main": "./lib/index.js",
 	"preferGlobal": "true",
 	"dependencies": {
 		"command-line-args": "^5.0.2",
