@@ -1,0 +1,17 @@
+{
+	"name": "git-projects-migration",
+	"version": "1.0.0",
+	"description": "Helps to migrate many git projects",
+	"dependencies": {
+		"fs": "0.0.1-security",
+		"nodegit": "^0.23.0",
+		"nodemon": "^1.18.9",
+		"parse-git-config": "^3.0.0",
+		"path": "^0.12.7"
+	},
+	"scripts": {
+		"start": "node index.js",
+		"dev": "nodemon index.js",
+		"debug": "node --inspect index.js"
+	}
+}
